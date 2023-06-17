@@ -1,0 +1,112 @@
+PATH
+  remote: .
+  specs:
+    is_email (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.5.0)
+    ast (2.4.2)
+    builder (3.2.4)
+    byebug (11.1.3)
+    coderay (1.1.3)
+    docile (1.4.0)
+    inch (0.8.0)
+      pry
+      sparkr (>= 0.2.0)
+      term-ansicolor
+      yard (~> 0.9.12)
+    json (2.6.3)
+    language_server-protocol (3.17.0.3)
+    lint_roller (1.0.0)
+    method_source (1.0.0)
+    minitest (5.18.1)
+    minitest-reporters (1.6.0)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+    parallel (1.23.0)
+    parser (3.2.2.3)
+      ast (~> 2.4.1)
+      racc
+    pry (0.14.2)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pry-byebug (3.10.1)
+      byebug (~> 11.0)
+      pry (>= 0.13, < 0.15)
+    racc (1.7.1)
+    rack (3.0.8)
+    rack-test (2.1.0)
+      rack (>= 1.3)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
+    rainbow (3.1.1)
+    rake (13.0.6)
+    regexp_parser (2.8.1)
+    rexml (3.2.5)
+    rubocop (1.52.1)
+      json (~> 2.3)
+      parallel (~> 1.10)
+      parser (>= 3.2.2.3)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml (>= 3.2.5, < 4.0)
+      rubocop-ast (>= 1.28.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 3.0)
+    rubocop-ast (1.29.0)
+      parser (>= 3.2.1.0)
+    rubocop-performance (1.18.0)
+      rubocop (>= 1.7.0, < 2.0)
+      rubocop-ast (>= 0.4.0)
+    ruby-progressbar (1.13.0)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
+    sparkr (0.4.1)
+    standard (1.29.0)
+      language_server-protocol (~> 3.17.0.2)
+      lint_roller (~> 1.0)
+      rubocop (~> 1.52.0)
+      standard-custom (~> 1.0.0)
+      standard-performance (~> 1.1.0)
+    standard-custom (1.0.1)
+      lint_roller (~> 1.0)
+    standard-performance (1.1.0)
+      lint_roller (~> 1.0)
+      rubocop-performance (~> 1.18.0)
+    sync (0.5.0)
+    term-ansicolor (1.7.1)
+      tins (~> 1.0)
+    tins (1.32.1)
+      sync
+    unicode-display_width (2.4.2)
+    webrick (1.8.1)
+    yard (0.9.34)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  inch
+  is_email!
+  minitest
+  minitest-reporters
+  pry
+  pry-byebug
+  rack-test
+  rackup
+  rake
+  simplecov
+  standard
+  yard
+
+BUNDLED WITH
+   2.4.7
