@@ -15,6 +15,7 @@ group :development do
 end
 
 group :test do
+  gem "activesupport"
   gem "minitest"
   gem "minitest-reporters"
   gem "rack-test"

@@ -6,4 +6,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-- Initial release
+- Add support for parsing email addresses according to the relevant RFCs and outputting either a boolean or a diagnosis. This is and will continue to be the default behavior of `IsEmail.email?`.
